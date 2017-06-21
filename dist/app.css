@@ -40,10 +40,11 @@
   margin-bottom: 0.4em;
   margin-right: 1.5%;
   font-family: Consolas, Monospace;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .number-button:nth-child(3n),
+.number-button.no-margin-right,
 .number-button:last-child {
   margin-right: 0;
 }
